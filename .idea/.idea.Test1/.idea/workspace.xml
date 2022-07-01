@@ -4,14 +4,7 @@
     <projectFile>Test1/Test1.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efb112f7-0867-4988-b22d-e8596d89d3e4" name="Changes" comment="Removing testing to get/set functions that would otherwise break the code">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Test1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/bin/Debug/net6.0/Test1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/bin/Debug/net6.0/Test1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/bin/Debug/net6.0/Test1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/bin/Debug/net6.0/Test1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/Debug/net6.0/Test1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/obj/Debug/net6.0/Test1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/Debug/net6.0/Test1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/obj/Debug/net6.0/Test1.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="efb112f7-0867-4988-b22d-e8596d89d3e4" name="Changes" comment="Removing testing to get/set functions that would otherwise break the code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +40,9 @@
     <setting file="mock://C:/Users/ststaffo/RiderProjects/Test1/Test1/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/ststaffo/RiderProjects/Test1/Test1/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Test1/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/ststaffo/RiderProjects/Test1/Test1/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/ststaffo/RiderProjects/Test1/Test1/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
