@@ -4,9 +4,7 @@
     <projectFile>Test1/Test1.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efb112f7-0867-4988-b22d-e8596d89d3e4" name="Changes" comment="Implemented &quot;properly&quot; the while loop doesn't create a new random number, they always display the first number every time they loop">
-      <change beforePath="$PROJECT_DIR$/Test1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/Program.cs" afterDir="false" />
-    </list>
+    <list default="true" id="efb112f7-0867-4988-b22d-e8596d89d3e4" name="Changes" comment="This one actually works. The stackoverflow I was looking at wanted to restart the loop, not decrement it. what I did worked fine" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +37,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Test1/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/ststaffo/RiderProjects/Test1/Test1/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -103,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656620268710</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="This one actually works. The stackoverflow I was looking at wanted to restart the loop, not decrement it. what I did worked fine">
+      <created>1656688354900</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656688354900</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +149,7 @@
     <MESSAGE value="for loop branch" />
     <MESSAGE value="test" />
     <MESSAGE value="test2" />
-    <option name="LAST_COMMIT_MESSAGE" value="test2" />
+    <MESSAGE value="This one actually works. The stackoverflow I was looking at wanted to restart the loop, not decrement it. what I did worked fine" />
+    <option name="LAST_COMMIT_MESSAGE" value="This one actually works. The stackoverflow I was looking at wanted to restart the loop, not decrement it. what I did worked fine" />
   </component>
 </project>

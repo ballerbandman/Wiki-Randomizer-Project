@@ -22,11 +22,6 @@ public class wiki
 
 
 /* ToDo:
-    For loop to generate 5 different wikis every time the program is run
-        **probably run with a small maxValue of let's say 10 to verify everything works properly before
-        **running with the 200+ total list
-    Make a List of wikiNumber that has already displayed
-    Condition the for loop to i-- if there is a number that has been displayed already
     Extra Credit: Find something to do with the other variables
     */
 
