@@ -24,8 +24,6 @@ public class Program
         Random rnd = new Random();
         wiki objWiki = new wiki();
         List<int> alreadyDisplayed = new List<int>();
-        objWiki.wikiNumber = 5;
-        
         Console.WriteLine("Test " + objWiki._wikiNumber);
         for (int i = 0; i < 5; i++)
         {
