@@ -12,6 +12,8 @@ public class wiki
 
     public int wikiNumber { get; set;}
 }
+    
+
 
 /* ToDo:
     Extra Credit: Find something to do with the other variables
@@ -24,6 +26,7 @@ public class Program
         Random rnd = new Random();
         wiki objWiki = new wiki();
         List<int> alreadyDisplayed = new List<int>();
+        
         Console.WriteLine("Test " + objWiki._wikiNumber);
         for (int i = 0; i < 5; i++)
         {
@@ -36,12 +39,12 @@ public class Program
             else
             {
                 alreadyDisplayed.Add(objWiki._wikiNumber);
-                //Console.WriteLine("If random is NOT in already dispalyed " + objWiki._wikiNumber);
+                Console.WriteLine("If random is NOT in already dispalyed " + objWiki._wikiNumber);
             }
             Console.WriteLine(objWiki._wikiNumber);
             
         }
-        //Console.WriteLine(alreadyDisplayed[4]);
+        Console.WriteLine(alreadyDisplayed[4]);
             
     }
 

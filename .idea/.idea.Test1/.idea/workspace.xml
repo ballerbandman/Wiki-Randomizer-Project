@@ -4,15 +4,13 @@
     <projectFile>Test1/Test1.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efb112f7-0867-4988-b22d-e8596d89d3e4" name="Changes" comment="Forgot to clean up todo list">
+    <list default="true" id="efb112f7-0867-4988-b22d-e8596d89d3e4" name="Changes" comment="Removing testing to get/set functions that would otherwise break the code">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Test1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test1/bin/Debug/net6.0/Test1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/bin/Debug/net6.0/Test1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test1/bin/Debug/net6.0/Test1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/bin/Debug/net6.0/Test1.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test1/obj/Debug/net6.0/Test1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/obj/Debug/net6.0/Test1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test1/obj/Debug/net6.0/Test1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/obj/Debug/net6.0/Test1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/Debug/net6.0/ref/Test1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/obj/Debug/net6.0/ref/Test1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/Debug/net6.0/refint/Test1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/obj/Debug/net6.0/refint/Test1.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +28,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="While_Loop_Implementation" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="ROOT_SYNC" value="SYNC" />
@@ -45,6 +43,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/ststaffo/RiderProjects/Test1/Test1/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/ststaffo/RiderProjects/Test1/Test1/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/ststaffo/RiderProjects/Test1/Test1/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Test1/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/ststaffo/RiderProjects/Test1/Test1/Program.cs" root0="SKIP_HIGHLIGHTING" />
@@ -126,7 +126,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656688477361</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated Get and Set methods to be more in line with what C# is capable of">
+      <created>1656689251494</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656689251494</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Removing testing to get/set functions that would otherwise break the code">
+      <created>1656689435829</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656689435829</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +182,8 @@
     <MESSAGE value="test2" />
     <MESSAGE value="This one actually works. The stackoverflow I was looking at wanted to restart the loop, not decrement it. what I did worked fine" />
     <MESSAGE value="Forgot to clean up todo list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Forgot to clean up todo list" />
+    <MESSAGE value="Updated Get and Set methods to be more in line with what C# is capable of" />
+    <MESSAGE value="Removing testing to get/set functions that would otherwise break the code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removing testing to get/set functions that would otherwise break the code" />
   </component>
 </project>
