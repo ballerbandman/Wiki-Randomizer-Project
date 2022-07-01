@@ -4,15 +4,8 @@
     <projectFile>Test1/Test1.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efb112f7-0867-4988-b22d-e8596d89d3e4" name="Changes" comment="Forgot to clean up todo list">
+    <list default="true" id="efb112f7-0867-4988-b22d-e8596d89d3e4" name="Changes" comment="Basic cleaning up of brackets and killing all the testing codes not needed for master. Creating a new test branch before committing. Decided to kill the original code snippet so its only in dev.">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Test1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/bin/Debug/net6.0/Test1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/bin/Debug/net6.0/Test1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/bin/Debug/net6.0/Test1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/bin/Debug/net6.0/Test1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/Debug/net6.0/Test1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/obj/Debug/net6.0/Test1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/Debug/net6.0/Test1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/obj/Debug/net6.0/Test1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/Debug/net6.0/ref/Test1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/obj/Debug/net6.0/ref/Test1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/Debug/net6.0/refint/Test1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/obj/Debug/net6.0/refint/Test1.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +39,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://C:/Users/ststaffo/RiderProjects/Test1/Test1/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/ststaffo/RiderProjects/Test1/Test1/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/ststaffo/RiderProjects/Test1/Test1/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Test1/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/ststaffo/RiderProjects/Test1/Test1/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/ststaffo/RiderProjects/Test1/Test1/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/ststaffo/RiderProjects/Test1/Test1/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -126,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656688477361</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Basic cleaning up of brackets and killing all the testing codes not needed for master. Creating a new test branch before committing. Decided to kill the original code snippet so its only in dev.">
+      <created>1656691734304</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656691734304</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +174,7 @@
     <MESSAGE value="test2" />
     <MESSAGE value="This one actually works. The stackoverflow I was looking at wanted to restart the loop, not decrement it. what I did worked fine" />
     <MESSAGE value="Forgot to clean up todo list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Forgot to clean up todo list" />
+    <MESSAGE value="Basic cleaning up of brackets and killing all the testing codes not needed for master. Creating a new test branch before committing. Decided to kill the original code snippet so its only in dev." />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic cleaning up of brackets and killing all the testing codes not needed for master. Creating a new test branch before committing. Decided to kill the original code snippet so its only in dev." />
   </component>
 </project>
