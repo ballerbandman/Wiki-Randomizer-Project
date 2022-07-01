@@ -39,18 +39,28 @@ public class Program
         List<int> alreadyDisplayed = new List<int>();
         
         Console.WriteLine("Test " + objWiki._wikiNumber);
-        for (int i = 0; i < 5; i++)
+        int i = 0;
+        while(i<3)
         {
             objWiki._wikiNumber = rnd.Next(6);
             if (alreadyDisplayed.Contains(objWiki._wikiNumber))
             {
-                --i;
-                break;
+                Console.WriteLine("if the wiki number has already been displayed: " + objWiki._wikiNumber);
+                i=0;
+                Console.WriteLine("value of i in this if: "+ i);
+                Console.WriteLine("");
             }
-            Console.WriteLine(objWiki._wikiNumber);
-            alreadyDisplayed.Add(objWiki._wikiNumber);
+            else
+            {
+                alreadyDisplayed.Add(objWiki._wikiNumber);
+                i++;
+                Console.WriteLine("value of i if the number has not already been displayed "+ i);
+                Console.WriteLine("");
+                //Console.WriteLine("What has been added to already displayed " + objWiki._wikiNumber);
+            }
+            Console.WriteLine("wikis already displayed after the logic "+ alreadyDisplayed[0]);
         }
-        Console.WriteLine(alreadyDisplayed[4]);
+        
             
     }
 
