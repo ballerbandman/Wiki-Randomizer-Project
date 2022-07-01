@@ -45,12 +45,17 @@ public class Program
             if (alreadyDisplayed.Contains(objWiki._wikiNumber))
             {
                 --i;
-                break;
+                Console.WriteLine("Random has already been displayed ");
+            }
+            else
+            {
+                alreadyDisplayed.Add(objWiki._wikiNumber);
+                //Console.WriteLine("If random is NOT in already dispalyed " + objWiki._wikiNumber);
             }
             Console.WriteLine(objWiki._wikiNumber);
-            alreadyDisplayed.Add(objWiki._wikiNumber);
+            
         }
-        Console.WriteLine(alreadyDisplayed[4]);
+        //Console.WriteLine(alreadyDisplayed[4]);
             
     }
 
