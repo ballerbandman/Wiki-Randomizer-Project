@@ -24,6 +24,15 @@ public class Program
 {
     public static void Main()
     {
+        string file = @"C:\Users\ststaffo\RiderProjects\Test1\TextTest1.txt";
+        string existingFileContents = File.ReadAllText(file);
+
+        File.WriteAllText(file, (existingFileContents + System.Environment.NewLine + "Test 4"));
+        Console.WriteLine(File.ReadAllText(file));
+        
+
+
+/*
         Random rnd = new Random();
         wiki objWiki = new wiki();
         List<int> alreadyDisplayed = new List<int>();
@@ -46,7 +55,7 @@ public class Program
             
         }
         Console.WriteLine(alreadyDisplayed[4]);
-            
+     */       
     }
 
 
