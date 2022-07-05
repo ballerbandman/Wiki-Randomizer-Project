@@ -4,7 +4,10 @@
     <projectFile>Test1/Test1.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efb112f7-0867-4988-b22d-e8596d89d3e4" name="Changes" comment="Removing testing to get/set functions that would otherwise break the code" />
+    <list default="true" id="efb112f7-0867-4988-b22d-e8596d89d3e4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Test1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/Program.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +29,7 @@
     </option>
     <option name="ROOT_SYNC" value="SYNC" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -36,14 +40,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/ststaffo/RiderProjects/Test1/Test1/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/ststaffo/RiderProjects/Test1/Test1/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/ststaffo/RiderProjects/Test1/Test1/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Test1/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/ststaffo/RiderProjects/Test1/Test1/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/ststaffo/RiderProjects/Test1/Test1/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -93,6 +90,7 @@
       <workItem from="1656616233497" duration="816000" />
       <workItem from="1656617072262" duration="3677000" />
       <workItem from="1656681899491" duration="1821000" />
+      <workItem from="1657026616523" duration="440000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1656620106502</created>
