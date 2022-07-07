@@ -24,38 +24,34 @@ public class Program
 {
     public static void Main()
     {
+        List<string> fileContents = new List<string>();
         string file = @"C:\Users\ststaffo\RiderProjects\Test1\TextTest1.txt";
         string existingFileContents = File.ReadAllText(file);
-
-        File.WriteAllText(file, (existingFileContents + System.Environment.NewLine + "Test 4"));
-        Console.WriteLine(File.ReadAllText(file));
-        
+        fileContents.Add(existingFileContents);
+        Console.WriteLine((string.Join("",fileContents)));
 
 
-/*
         Random rnd = new Random();
         wiki objWiki = new wiki();
         List<int> alreadyDisplayed = new List<int>();
         
-        Console.WriteLine("Test " + objWiki._wikiNumber);
+
         for (int i = 0; i < 5; i++)
         {
             objWiki._wikiNumber = rnd.Next(6);
             if (alreadyDisplayed.Contains(objWiki._wikiNumber))
-            {
                 --i;
-                Console.WriteLine("Random has already been displayed ");
-            }
             else
             {
                 alreadyDisplayed.Add(objWiki._wikiNumber);
-                Console.WriteLine("If random is NOT in already dispalyed " + objWiki._wikiNumber);
+                Console.WriteLine(objWiki._wikiNumber);
+                fileContents.Add(objWiki._wikiNumber.ToString());
+                File.WriteAllText(file, string.Join(System.Environment.NewLine, fileContents));
             }
-            Console.WriteLine(objWiki._wikiNumber);
+
             
         }
-        Console.WriteLine(alreadyDisplayed[4]);
-     */       
+
     }
 
 
