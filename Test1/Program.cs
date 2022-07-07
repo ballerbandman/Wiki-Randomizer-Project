@@ -4,6 +4,7 @@ using System.Globalization;
 using System.Reflection.Metadata.Ecma335;
 using System.Runtime.CompilerServices;
 
+
 public class wiki
 {
     public int _wikiNumber;
@@ -12,8 +13,6 @@ public class wiki
 
     public int wikiNumber { get; set;}
 }
-    
-
 
 /* ToDo:
     100000 Points: Comment wtf this shit does, in both main and dev branches
@@ -37,6 +36,29 @@ public class Program
         //testing to ensure it worked properly, for some reason if we don't use string.Join(), we get the name of the list not the actual contents so this is our workaround
         Console.WriteLine((string.Join("",fileContents)));
 
+        
+        //giving myself some breathing room. Plans for this bit: convert the strings from string to ints. going to be trying ToInt32(String) and we'll see how we do
+        
+        int test1 = Int32.Parse(existingFileContents);
+        Console.WriteLine(test1);
+        
+        // ToInt32 and parse both did not work with multiple lines in the text document. going to see if there is more specific to exactly what I need tomorrow
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         //setting up the randomizer
         Random rnd = new Random();
         wiki objWiki = new wiki();
