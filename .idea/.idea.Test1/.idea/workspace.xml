@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efb112f7-0867-4988-b22d-e8596d89d3e4" name="Changes" comment="adding text doc">
+    <list default="true" id="efb112f7-0867-4988-b22d-e8596d89d3e4" name="Changes" comment="this reads the contents of the file and writes it + new stuff to it. need to prevent stuff in the file from coming up again. finally getting somewhere">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Test1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test1/bin/Debug/net6.0/Test1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/bin/Debug/net6.0/Test1.dll" afterDir="false" />
@@ -49,6 +49,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Test1/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/ststaffo/RiderProjects/Test1/Test1/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -103,7 +104,7 @@
       <workItem from="1656617072262" duration="3677000" />
       <workItem from="1656681899491" duration="1821000" />
       <workItem from="1657026616523" duration="2527000" />
-      <workItem from="1657222333550" duration="1956000" />
+      <workItem from="1657222333550" duration="2927000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1656620106502</created>
@@ -154,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657027114858</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="this reads the contents of the file and writes it + new stuff to it. need to prevent stuff in the file from coming up again. finally getting somewhere">
+      <created>1657224514353</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657224514353</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +207,7 @@
     <MESSAGE value="Updated Get and Set methods to be more in line with what C# is capable of" />
     <MESSAGE value="Removing testing to get/set functions that would otherwise break the code" />
     <MESSAGE value="Today omw to work I realized that the code kills itself once its run so currently there's no way to store the data as its all killed once the code ends. Today I'm going to try setting up an external file that will house the &quot;already displayed&quot; vars, preventing the rest of the program from using those numbers again even after its been stopped. The hope is for the file to be a simple text file we can edit. Will test this by constricting the rnd.Next to 7 values with 2 of them already stored in the file so it can only display 1-5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Today omw to work I realized that the code kills itself once its run so currently there's no way to store the data as its all killed once the code ends. Today I'm going to try setting up an external file that will house the &quot;already displayed&quot; vars, preventing the rest of the program from using those numbers again even after its been stopped. The hope is for the file to be a simple text file we can edit. Will test this by constricting the rnd.Next to 7 values with 2 of them already stored in the file so it can only display 1-5" />
+    <MESSAGE value="this reads the contents of the file and writes it + new stuff to it. need to prevent stuff in the file from coming up again. finally getting somewhere" />
+    <option name="LAST_COMMIT_MESSAGE" value="this reads the contents of the file and writes it + new stuff to it. need to prevent stuff in the file from coming up again. finally getting somewhere" />
   </component>
 </project>
